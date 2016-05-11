@@ -7,21 +7,21 @@
 
 * Explain that a function is a **self-contained** chunk of code that performs a **specific** task. A function should do one thing and one thing well.
 * Explain that a function has a name that identifies what it does, and that name is used to "call" the function to perform its task when needed.
-* Break down the various parts of a function. This will be the first time they see this:
+* Break down the various parts of a function. Create a function that takes no arguments:
 
 ```swift
 func sayHello() {
     print("Hello everyone!")
 }
 ```
-* Properly be able to describe what is going on here:
+* Create a function that contains one argument, like so:
 
 ```swift
 func sayHelloToCat(kittenName: String) {
     print("Hello, \(kittenName), why do you sleep so much?")
 }
 ```
-* Create their own function that can take in two arguments of type String and Int and print out a sentence within that functions implementation utilizing both.
+
 
 
 
