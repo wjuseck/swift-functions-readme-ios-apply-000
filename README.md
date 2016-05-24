@@ -187,6 +187,8 @@ sayHelloToCat()  // You'll get an error here!
 
 Do you know why Swift couldn't run that line of code?
 
+`sayHelloToCat` _requires_ an argument, but the line of code above does not pass an argument to `sayHelloToCat`, resulting in an error. If a function requires an argument, you must pass one when calling the function!
+
 This lesson's playground file contains several function declarations. Try various ways of calling those functions until you are comfortable with how they work.
 
 <a href='https://learn.co/lessons/FunctionStuff' data-visibility='hidden'>View this lesson on Learn.co</a>
