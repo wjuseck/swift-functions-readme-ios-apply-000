@@ -160,7 +160,7 @@ func sayHelloToCat(catName: String) {
 
 Enter the above code into your playground file. (Don't just copy and paste it in! Typing it in yourself helps you to familiarize more closely with the code.) Take a look at what you did: You defined a function (using the `func` keyword) called `sayHelloToCat`. Like `sayHello`, you opened with a set of parentheses. But instead of being empty, you declared an argument called `catName` of type `String`. Then, you wrote a function body consisting of a call to `print()`. Notice that the string you are printing interpolates the argument, `catName`. `catName` is a constant that you can use anywhere inside the `sayHelloToCat()` function. You can think of it as being a constant declared inside of the function body, just like `greeting` was declared inside of `sayHello()`. Like `greeting`, `catName` is visible only within the _scope_ of `sayHelloToCat`, so you cannot refer to it outside of the function.
 
-You can call `sayHelloToCat()` just like you called `sayHello()`, except you have to pass an argument to `sayHelloToCat()`. You can simply pass a string:
+You can call `sayHelloToCat()` just like you called `sayHello()`, except you have to pass an argument to `sayHelloToCat()`. You can simply pass a string because the function's argument, `catName`, is of type `String`:
 
 ```swift
 sayHelloToCat("Mittens")
