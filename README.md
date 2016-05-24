@@ -120,7 +120,7 @@ print(farewell)
 // file will not run at all!
 ```
 
-Scopes are helpful because you can use any name you want for variables and constants inside the function, without having to worry that the name has already been used somewhere else. And other code you write can use the same variable and constant names without worrying about overwriting the variables in your other functions, too. Win-win!
+In a nutshell, _scoping_ refers to the _visibility_ of variables and constants; that is, what parts of your program can see or use the variables or constants you declare. It is very useful to limit a variable's scope to a single function. Changes to a variable inside of a function you write won't affect other parts of your program in unexpected and unintended ways. In our case, we can be certain that since we declared `greeting` within the scope of our function, no one outside of that function can mess with it.
 
 ## Function Arguments
 
