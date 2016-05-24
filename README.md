@@ -94,7 +94,7 @@ Notice that once you've defined a function, you can call it as often as you want
 
 ## Scopes
 
-Now is a good time to segue very quickly into _scopes_. Every function has its own scope, which means that constants and variables defined in that function are only usable _within_ that function. In `sayHello(), you declared a constant called `greeting`. `greeting` can _only_ be used within the body of `sayHello()`. You can't use it outside of the function.
+Now is a good time to segue very quickly into _scopes_. Every function has its own scope, which means that constants and variables defined in that function are only usable _within_ that function. In `sayHello()`, you declared a constant called `greeting`. `greeting` can _only_ be used within the body of `sayHello()`. You can't use it outside of the function.
 
 Don't believe me? Add this line to the end of your playground file:
 
