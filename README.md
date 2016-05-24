@@ -78,7 +78,12 @@ func sayHello() {
 }
 
 sayHello()
+// prints "Hello everyone!"
+// prints "Hello there!"
+
 sayHello()
+// prints "Hello everyone!"
+// prints "Hello there!"
 ```
 
 What's happening here? First you _defined_ the function `sayHello()`, and then you call it twice, on the last two lines of the code above. You should see "Hello there!" printed twice to your playground file's console (don't forget to pop that open by hitting the arrow button at the bottom of the playground!).
