@@ -164,6 +164,7 @@ You can call `sayHelloToCat()` just like you called `sayHello()`, except you hav
 
 ```swift
 sayHelloToCat("Mittens")
+// prints "Hello, Mittens, why do you sleep so much?"
 ```
 
 Now you should see "Hello, Mittens, why do you sleep so much?" printed to the playground's console.
@@ -173,6 +174,7 @@ You can also declare a constant or variable, then pass the constant or variable 
 ```swift
 let catName = "Socks"
 sayHelloToCat(catName)
+// prints "Hello, socks, why do you sleep so much?"
 ```
 
 (Remember: That constant or variable _must_ be a `String`, because you declared the argument to `sayHelloToCat()` to be a `String`!)
