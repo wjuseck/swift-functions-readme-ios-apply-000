@@ -104,6 +104,22 @@ print(greeting)
 
 You should get an error when you try to run your playground!
 
+Here's a more detailed example of scoping:
+
+```swift
+func sayGoodbye() {
+    let farewell = "Goodbye, world."
+    print(farewell)
+}
+
+sayGoodbye()
+// Prints "Goodbye, world."
+
+print(farewell)
+// This will print an error and won't compile. Your playground
+// file will not run at all!
+```
+
 Scopes are helpful because you can use any name you want for variables and constants inside the function, without having to worry that the name has already been used somewhere else. And other code you write can use the same variable and constant names without worrying about overwriting the variables in your other functions, too. Win-win!
 
 ## Function Arguments
