@@ -1,34 +1,15 @@
 # Functions
 
-![CatDog gif](http://i.imgur.com/85Pd59R.gif)
+![Conf](http://i.imgur.com/jvFW8gf.jpg?1)
+
+> It does not matter how slowly you go as long as you do not stop. ~[Confucius](https://en.wikipedia.org/wiki/Confucius)
 
 ## Learning Objectives - The student should be able to...
 
 * Explain that a function is a **self-contained** chunk of code that performs a **specific** task. A function should do one thing and one thing well.
 * Explain that a function has a name that identifies what it does, and that name is used to "call" the function to perform its task when needed.
 * Break down the various parts of a function. Create a function that takes no arguments:
-
-```swift
-func sayHello() {
-    print("Hello everyone!")
-}
-```
-
 * Create a function that contains one argument, like so:
-
-```swift
-func sayHelloToCat(kittenName: String) {
-    print("Hello, \(kittenName), why do you sleep so much?")
-}
-```
-
-## What the student can do at this point
-
-* Create variables and constants
-* Knows how to use the `print()` function (although they might not know that it's referred to as a function at this point).
-* Can create variables of type `String` and `Int` (no other types).
-* Will _not_ have seen a function yet; this readme will be the first time they see it.
-* They would have come off just doing a mini lab in a Playground file which had them  become familiar with everything they had just learned (`String`, `Int`, variables, constants, `print`, string interpolation, type inference, type annotations).
 
 ## Functions
 
