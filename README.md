@@ -59,11 +59,9 @@ func sayHello() {
 }
 
 sayHello()
-// prints "Hello everyone!"
 // prints "Hello there!"
 
 sayHello()
-// prints "Hello everyone!"
 // prints "Hello there!"
 ```
 
