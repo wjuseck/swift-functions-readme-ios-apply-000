@@ -155,7 +155,7 @@ You can also declare a constant or variable, then pass the constant or variable 
 ```swift
 let catName = "Socks"
 sayHelloToCat(catName)
-// prints "Hello, socks, why do you sleep so much?"
+// prints "Hello, Socks, why do you sleep so much?"
 ```
 
 (Remember: That constant or variable _must_ be a `String`, because you declared the argument to `sayHelloToCat()` to be a `String`!)
@@ -173,3 +173,5 @@ Do you know why Swift couldn't run that line of code?
 This lesson's playground file contains several function declarations. Try various ways of calling those functions until you are comfortable with how they work.
 
 <a href='https://learn.co/lessons/FunctionStuff' data-visibility='hidden'>View this lesson on Learn.co</a>
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/swift-functions-readme'>Functions</a> on Learn.co and start learning to code for free.</p>
