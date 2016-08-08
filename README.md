@@ -8,8 +8,8 @@
 
 * Explain that a function is a **self-contained** chunk of code that performs a **specific** task. A function should do one thing and one thing well.
 * Explain that a function has a name that identifies what it does, and that name is used to "call" the function to perform its task when needed.
-* Break down the various parts of a function. Create a function that takes no arguments:
-* Create a function that contains one argument, like so:
+* Break down the various parts of a function. 
+* Create functions that takes no arguments and functions that take one argument
 
 ## Functions
 
