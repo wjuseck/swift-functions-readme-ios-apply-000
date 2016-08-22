@@ -4,11 +4,15 @@
 
 > It does not matter how slowly you go as long as you do not stop. ~[Confucius](https://en.wikipedia.org/wiki/Confucius)
 
-## Learning Objectives - The student should be able to...
+## Overview
 
-* Explain that a function is a **self-contained** chunk of code that performs a **specific** task. A function should do one thing and one thing well.
-* Explain that a function has a name that identifies what it does, and that name is used to "call" the function to perform its task when needed.
-* Break down the various parts of a function. 
+In this lesson we'll define, create, and call functions that take one and zero arguments. 
+
+## Learning Objectives 
+
+* Explain that a function is a **self-contained** chunk of code that performs a **specific** task
+* Call functions using the function name
+* Break down the various parts of a function
 * Create functions that takes no arguments and functions that take one argument
 
 ## Functions
@@ -169,7 +173,5 @@ Do you know why Swift couldn't run that line of code?
 `sayHelloToCat` _requires_ an argument, but the line of code above does not pass an argument to `sayHelloToCat`, resulting in an error. If a function requires an argument, you must pass one when calling the function!
 
 This lesson's playground file contains several function declarations. Try various ways of calling those functions until you are comfortable with how they work.
-
-<a href='https://learn.co/lessons/FunctionStuff' data-visibility='hidden'>View this lesson on Learn.co</a>
 
 <p class='util--hide'>View <a href='https://learn.co/lessons/swift-functions-readme'>Functions</a> on Learn.co and start learning to code for free.</p>
