@@ -107,7 +107,7 @@ In a nutshell, _scoping_ refers to the _visibility_ of variables and constants; 
 
 ## Function Arguments
 
-Now that you've learned how to declare functions, let's return to your doggie alter ego again. You're a dog, so your owner takes you for a walk every day. During the walk, you always see a lot of cats, which you've gotten to know over the course of many walks. You've always wondered why cats sleep so much, instead of fetching balls and chewing on shoes, which is a lot more fun. You think that you should ask your feline friends why they sleep so much.
+Now that you've learned how to declare functions, let's return to your doggie alter ego again. You're a dog, so your owner takes you for a walk every day. During the walk, you always see a lot of cats, which you've gotten to know over the course of many walks. You've always wondered why cats sleep so much, instead of fetching balls and chewing on shoes, which is a lot more fun. You wonder why your feline friends sleep so much.
 
 You could write functions to ask them why they sleep so much. Those functions would look something like this:
 
@@ -133,7 +133,7 @@ Luckily, you can generalize functions using _arguments_. You've already seen arg
 
 Remember when you created `sayHello()`, and you added an empty set of parentheses after the function name? You can specify an argument in those parentheses instead. That argument consists of both a name and the argument's data type (you remember learning about data types, right?). You can then pass in a different value in place of that argument when you call the function. Inside the function's body, you can refer to that value using the name in the argument list.
 
-Let's try to generalize `sayHelloToGarfield()`, etc., a bit, so they consist of just _one_ function that uses an argument. Here's how you would define a more general function, `sayHelloToCat()`:
+Let's try to generalize `sayHelloToGarfield()` and the other above functions a bit, so that they consist of just _one_ function that uses an argument. Here's how you would define a more general function, `sayHelloToCat()`:
 
 ```swift
 func sayHelloToCat(catName: String) {
@@ -172,6 +172,6 @@ Do you know why Swift couldn't run that line of code?
 
 `sayHelloToCat` _requires_ an argument, but the line of code above does not pass an argument to `sayHelloToCat`, resulting in an error. If a function requires an argument, you must pass one when calling the function!
 
-This lesson's playground file contains several function declarations. Try various ways of calling those functions until you are comfortable with how they work.
+While this is a Readme, this lesson's playground file contains several function declarations. To fork and clone from Github, first click on the little Github icon which is the first of four icons on the upper right side of your Learn screen. Then follow the workflow of forking and cloning the repository. Try various ways of calling those functions until you are comfortable with how they work.
 
 <p class='util--hide'>View <a href='https://learn.co/lessons/swift-functions-readme'>Functions</a> on Learn.co and start learning to code for free.</p>
