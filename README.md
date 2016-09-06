@@ -2,7 +2,7 @@
 
 ![Conf](http://i.imgur.com/jvFW8gf.jpg?1)
 
-> It does not matter how slowly you go as long as you do not stop. ~[Confucius](https://en.wikipedia.org/wiki/Confucius)
+> It does not matter how slowly you go as long as you do not stop. -[Confucius](https://en.wikipedia.org/wiki/Confucius)
 
 ## Overview
 
