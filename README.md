@@ -133,45 +133,37 @@ Luckily, you can generalize functions using _arguments_. You've already seen arg
 
 Remember when you created `sayHello()`, and you added an empty set of parentheses after the function name? You can specify an argument in those parentheses instead. That argument consists of both a name and the argument's data type (you remember learning about data types, right?). You can then pass in a different value in place of that argument when you call the function. Inside the function's body, you can refer to that value using the name in the argument list.
 
-Let's try to generalize `sayHelloToGarfield()` and the other above functions a bit, so that they consist of just _one_ function that uses an argument. Here's how you would define a more general function, `sayHelloToCat()`:
-
 ```swift
-func sayHelloToCat(catName: String) {
-    print("Hello, \(catName), why do you sleep so much?")
+func sayHello(name: String) {
+    print("Hello \(name), why do you sleep so much?")
 }
 ```
 
-Enter the above code into your playground file. (Don't just copy and paste it in! Typing it in yourself helps you to familiarize more closely with the code.) Take a look at what you did: You defined a function (using the `func` keyword) called `sayHelloToCat`. Like `sayHello`, you opened with a set of parentheses. But instead of being empty, you declared an argument called `catName` of type `String`. Then, you wrote a function body consisting of a call to `print()`. Notice that the string you are printing interpolates the argument, `catName`. `catName` is a constant that you can use anywhere inside the `sayHelloToCat()` function. You can think of it as being a constant declared inside of the function body, just like `greeting` was declared inside of `sayHello()`. Like `greeting`, `catName` is visible only within the _scope_ of `sayHelloToCat`, so you cannot refer to it outside of the function.
+Enter the above code into your playground file. (Don't just copy and paste it in! Typing it in yourself helps you to familiarize more closely with the code.) Take a look at what you did: You defined a function (using the `func` keyword) called `sayHello(name:)`. Like `sayHello()` above, you opened with a set of parentheses. But instead of being empty, you declared an argument called `name` of type `String`. Then, you wrote a function body consisting of a call to `print()`. Notice that the string you are printing interpolates the argument, `name`. `name` is a constant that you can use anywhere inside the `sayHello(name:)` function. You can think of it as being a constant declared inside of the function body, just like `greeting` was declared inside of `sayHello()`. Like `greeting`, `name` is visible only within the _scope_ of `sayHello(name:)`, so you cannot refer to it outside of the function.
 
-You can call `sayHelloToCat()` just like you called `sayHello()`, except you have to pass an argument to `sayHelloToCat()`. You can simply pass a string because the function's argument, `catName`, is of type `String`:
-
-```swift
-sayHelloToCat("Mittens")
-// prints "Hello, Mittens, why do you sleep so much?"
-```
-
-Now you should see "Hello, Mittens, why do you sleep so much?" printed to the playground's console.
-
-You can also declare a constant or variable, then pass the constant or variable to `sayHelloToCat()`.
+You can call `sayHello(name:)` just like you called `sayHello()`, except you have to pass an argument to `sayHello(name:)`. You can simply pass a string because the function's argument, `name`, is of type `String`:
 
 ```swift
-let catName = "Socks"
-sayHelloToCat(catName)
-// prints "Hello, Socks, why do you sleep so much?"
+sayHello(name: "Mittens")
+// Prints "Hello Mittens, why do you sleep so much?"
 ```
 
-(Remember: That constant or variable _must_ be a `String`, because you declared the argument to `sayHelloToCat()` to be a `String`!)
-
-Because `sayHelloToCat()` takes an argument, you cannot call it without one. Try calling it without an argument in your playground file and see what happens:
+You can also declare a constant or variable, then pass the constant or variable to `sayHello(name:)`.
 
 ```swift
-sayHelloToCat()  // You'll get an error here!
+let dumpsterCat = "Rocky"
+sayHello(name: dumpsterCat)
+// Prints "Hello Rocky, why do you sleep so much?"
 ```
 
-Do you know why Swift couldn't run that line of code?
+(Remember: That constant or variable _must_ be a `String`, because you declared the argument to `sayHello(name:)` to be a `String`!)
 
-`sayHelloToCat` _requires_ an argument, but the line of code above does not pass an argument to `sayHelloToCat`, resulting in an error. If a function requires an argument, you must pass one when calling the function!
+
+`sayHello(name:)` _requires_ an argument, but if you call on this function and don't pass an argument to `sayHello(name:)`, it will result in an error. If a function requires an argument, you must pass one when calling the function!
 
 While this is a Readme, this lesson's playground file contains several function declarations. To fork and clone from Github, first click on the little Github icon which is the first of four icons on the upper right side of your Learn screen. Then follow the workflow of forking and cloning the repository. Try various ways of calling those functions until you are comfortable with how they work.
+
+
+---
 
 <p class='util--hide'>View <a href='https://learn.co/lessons/swift-functions-readme'>Functions</a> on Learn.co and start learning to code for free.</p>
