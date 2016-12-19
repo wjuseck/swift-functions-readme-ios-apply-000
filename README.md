@@ -15,6 +15,16 @@ In this lesson we'll define, create, and call functions that take one and zero a
 * Break down the various parts of a function
 * Create functions that takes no arguments and functions that take one argument
 
+## Functions Video
+
+[![](http://img.youtube.com/vi/W1_ZJTch5EU/0.jpg)](https://www.youtube.com/watch?v=W1_ZJTch5EU "Functions")
+
+## Functions Video (argument labels, parameter names)
+
+[![](http://img.youtube.com/vi/rKEGciKb4sY/0.jpg)](https://www.youtube.com/watch?v=rKEGciKb4sY "Functions Arg")
+
+
+
 ## Functions
 
 So far, all the code you have written has been a set of steps, such as declaring a variable or constant (using `var` or `let`) or printing variables to the console (using Swift's `print()` function). While this has allowed you to do some cool things, having to constantly retype what you want a program to do doesn't scale well to larger programs. Wouldn't it be nice if you could have a bit of common code in one place, and execute it every time you want to use it?
