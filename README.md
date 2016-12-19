@@ -19,11 +19,6 @@ In this lesson we'll define, create, and call functions that take one and zero a
 
 [![](http://img.youtube.com/vi/W1_ZJTch5EU/0.jpg)](https://www.youtube.com/watch?v=W1_ZJTch5EU "Functions")
 
-## Functions Video (argument labels, parameter names)
-
-[![](http://img.youtube.com/vi/rKEGciKb4sY/0.jpg)](https://www.youtube.com/watch?v=rKEGciKb4sY "Functions Arg")
-
-
 
 ## Functions
 
